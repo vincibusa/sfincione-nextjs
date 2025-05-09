@@ -1,6 +1,10 @@
+'use client';
 import React from "react";
-import { MotionDiv } from "../components/ui/motion-div";
+
 import { CalendarIcon, MapPin } from "lucide-react";
+import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
 
 const scheduleDays = [
   {

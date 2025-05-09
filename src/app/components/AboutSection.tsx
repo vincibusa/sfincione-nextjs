@@ -1,7 +1,11 @@
+'use client';
 import React from "react";
-import { MotionDiv, MotionImg } from "../components/ui/motion-div";
+
 import { Calendar, Users, Award, History } from "lucide-react";
 import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
+const MotionImg = motion.img;
 
 const AboutSection: React.FC = () => {
   const features = [

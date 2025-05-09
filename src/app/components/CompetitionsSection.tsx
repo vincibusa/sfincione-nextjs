@@ -1,8 +1,12 @@
+'use client';
+
 import React from "react";
-import { MotionDiv, MotionImg } from "../components/ui/motion-div";
-import { Button } from "../components/ui/button";
+
 import { Clock, Trophy, Users, Calendar, ArrowRight, Download } from "lucide-react";
 import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
+const MotionImg = motion.img;
 
 const competitions = [
   {
@@ -256,9 +260,9 @@ const CompetitionsSection: React.FC = () => {
               Scarica il modulo d'iscrizione e partecipa a una o più competizioni del Cannolo Fest 2025. 
               Ogni categoria offre l'opportunità di vincere premi esclusivi e il riconoscimento della comunità gastronomica siciliana.
             </p>
-            <Button className="bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-white py-6 px-8 rounded-xl text-lg font-medium flex items-center justify-center mx-auto">
+            <button className="bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-white py-6 px-8 rounded-xl text-lg font-medium flex items-center justify-center mx-auto">
               <Download className="w-5 h-5 mr-3" /> Scarica il Modulo d'Iscrizione
-            </Button>
+            </button>
           </motion.div>
         </MotionDiv>
       </div>

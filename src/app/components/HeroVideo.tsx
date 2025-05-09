@@ -1,7 +1,10 @@
+'use client';
 import React from "react";
-import { MotionDiv } from "./ui/motion-div";
+
 import { Calendar, Info } from 'lucide-react';
 import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
 
 const HeroVideo: React.FC = () => {
   return (

@@ -1,8 +1,15 @@
+'use client';
 import React, { useState, useEffect } from "react";
-import { Button } from "../components/ui/button";
+
 import { Menu, X } from "lucide-react";
-import { MotionDiv } from "../components/ui/motion-div";
-import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
+
+// Funzione di utilità per combinare classi CSS
+const cn = (...classes: (string | boolean | undefined)[]) => {
+  return classes.filter(Boolean).join(" ");
+};
 
 const navLinks = [
   { name: "Chi Siamo", href: "#about" },
@@ -115,18 +122,17 @@ const Header: React.FC = () => {
         </nav>
 
         <div className="md:hidden">
-          <Button
-            variant="ghost"
-            size="icon"
+          <button
             onClick={() => setMobileMenuOpen(true)}
             className={cn(
+              "p-2 rounded-md",
               scrolled
                 ? "text-gray-700 hover:bg-gray-100"
                 : "text-black hover:bg-black/10"
             )}
           >
             <Menu size={24} />
-          </Button>
+          </button>
         </div>
       </div>
 
@@ -145,14 +151,12 @@ const Header: React.FC = () => {
                 alt="Cannolo Fest Logo"
                 className="h-16 w-auto"
               />
-              <Button
-                variant="ghost"
-                size="icon"
+              <button
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-gray-500 hover:text-gray-700"
+                className="p-2 rounded-md text-gray-500 hover:text-gray-700"
               >
                 <X size={24} />
-              </Button>
+              </button>
             </div>
           </div>
           

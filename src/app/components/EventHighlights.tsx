@@ -1,7 +1,11 @@
+'use client';
 import React from "react";
-import { MotionDiv } from "../components/ui/motion-div";
+
 import { motion } from "framer-motion";
 import { ChefHat, Trophy, Music, ArrowRight } from "lucide-react";
+
+const MotionDiv = motion.div;
+const MotionImg = motion.img;
 
 const highlights = [
   {

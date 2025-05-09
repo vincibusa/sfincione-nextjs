@@ -1,6 +1,10 @@
+'use client';
 import React from "react";
-import { MotionDiv, MotionImg } from "../components/ui/motion-div";
+
 import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
+const MotionImg = motion.img;
 
 // Categorie di sponsor secondo l'immagine di riferimento
 const coOrganizzazione = [

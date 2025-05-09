@@ -1,7 +1,10 @@
+'use client';
 import React from "react";
-import { MotionDiv } from "../components/ui/motion-div";
-import { Button } from "../components/ui/button";
+
 import {  MapPinIcon, UserIcon, PhoneIcon } from "lucide-react";
+import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
 
 const quickLinks = [
   { name: "Chi Siamo", href: "#about" },

@@ -1,7 +1,11 @@
+'use client';
 import React from "react";
-import { MotionDiv, MotionImg } from "../components/ui/motion-div";
-import { Button } from "../components/ui/button";
+
 import { MapPinIcon, Clock, Phone, Info, ExternalLink } from "lucide-react";
+import { motion } from "framer-motion";
+
+const MotionDiv = motion.div;
+const MotionImg = motion.img;
 
 const LocationSection: React.FC = () => {
   // Coordinate di Piana degli Albanesi
@@ -92,19 +96,18 @@ const LocationSection: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-lg shadow-red-600/20 border-0 rounded-full px-8"
+              <button 
+                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white shadow-lg shadow-red-600/20 border-0 rounded-full px-8 flex items-center justify-center py-4"
                 onClick={handleOpenDirections}
               >
                 Come Arrivare <ExternalLink className="ml-2 h-4 w-4" />
-              </Button>
-              <Button
-                variant="outline"
-                className="border-red-600 text-red-600 hover:bg-red-50 rounded-full px-8"
+              </button>
+              <button
+                className="border-red-600 text-red-600 hover:bg-red-50 rounded-full px-8 flex items-center justify-center py-4"
                 onClick={handleOpenMap}
               >
                 Visualizza Mappa <ExternalLink className="ml-2 h-4 w-4" />
-              </Button>
+              </button>
             </div>
 
             <div className="space-y-4 pt-4 border-t border-gray-200">
