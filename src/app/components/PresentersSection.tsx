@@ -123,11 +123,11 @@ const PresentersSection: React.FC = () => {
                   whileHover={{ y: -8 }}
                   className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group-hover:border-red-200 transition-all duration-300 flex flex-col"
                 >
-                  <div className="relative overflow-hidden aspect-[3/4] max-h-[280px] flex-shrink-0">
+                  <div className="relative overflow-hidden aspect-[3/4] flex-shrink-0">
                     <MotionImg
                       src={presenter.image}
                       alt={presenter.name}
-                      className="absolute inset-0 w-full h-full object-cover object-top"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.6 }}
                     />
