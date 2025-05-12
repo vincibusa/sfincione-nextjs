@@ -73,9 +73,38 @@ export default function RootLayout({
               "description": "Festival che celebra il cannolo siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
               "image": "https://cannolofest.it/og-image.jpg",
               "url": "https://cannolofest.it",
+              "startDate": "2024-05-17T10:30:00+02:00",
+              "endDate": "2024-05-18T23:00:00+02:00",
+              "performer": [
+                {
+                  "@type": "Person",
+                  "name": "Giuseppe Sparacello",
+                  "description": "Workshop sulla cassata"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Salvatore Capizzi",
+                  "description": "Patron e pizzaiolo di 'Molecola'"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Mario Fiasconaro",
+                  "description": "Workshop sul panettone"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Giovanni Cappello",
+                  "description": "Workshop sulla cassata"
+                },
+                {
+                  "@type": "Organization",
+                  "name": "Radio 105",
+                  "description": "DJ SET"
+                }
+              ],
               "location": {
                 "@type": "Place",
-                "name": "Piazza del Festival",
+                "name": "Piazza Vittorio Emanuele",
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Sicilia",
@@ -93,7 +122,8 @@ export default function RootLayout({
                 "availability": "https://schema.org/InStock",
                 "price": "0",
                 "priceCurrency": "EUR",
-                "validFrom": "2023-01-01T00:00:00+00:00"
+                "validFrom": "2023-01-01T00:00:00+00:00",
+                "url": "https://cannolofest.it/tickets"
               },
               "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled"
