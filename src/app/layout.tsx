@@ -61,6 +61,7 @@ export default function RootLayout({
   return (
     <html lang="it">
       <head>
+        <meta name="google-site-verification" content="7iXbgvXsCzI1emd9ETa5cVTTW9cTeDa2a4rqpK_WpcE" />
         <Script
           id="schema-jsonld"
           type="application/ld+json"
