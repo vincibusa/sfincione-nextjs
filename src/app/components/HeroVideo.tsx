@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-
+import Image from "next/image";
 import { Calendar, Info } from 'lucide-react';
 import { motion } from "framer-motion";
 
@@ -12,7 +12,7 @@ const HeroVideo: React.FC = () => {
       {/* Video di sfondo */}
       <div className="absolute inset-0">
         <video
-          src="/cannoloVideo.mp4"
+          src="/VideoBackOtt.mp4"
           autoPlay
           muted
           loop
@@ -33,23 +33,26 @@ const HeroVideo: React.FC = () => {
               <div className="flex items-center justify-center gap-4 mb-6">
                 <span className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm">
                   <Calendar className="w-4 h-4 mr-2" />
-                  17-18 Maggio 2025
+                  6-7-8-9 Novembre 2025
                 </span>
                 <span className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm">
-                  Piana Degli Albanesi
+                  Bagheria
                 </span>
               </div>
       
               {/* Logo e sottotitolo */}
               <div className="flex justify-center mb-4">
-                <img 
-                  src="/logohero.png" 
+                <Image 
+                  src="/logoSfincione.png" 
                   alt="Cannolo Fest" 
+                  width={320}
+                  height={320}
                   className="h-32 md:h-40 object-contain"
+                  priority
                 />
               </div>
               <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-                Il primo festival del cannolo nel mondo
+              La più grande festa dello street food siciliano
               </p>
               
             </MotionDiv>

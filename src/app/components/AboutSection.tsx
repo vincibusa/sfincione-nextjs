@@ -8,26 +8,27 @@ const MotionDiv = motion.div;
 const MotionImg = motion.img;
 
 const AboutSection: React.FC = () => {
+
   const features = [
     {
       icon: <Users className="w-6 h-6" />,
-      title: "20+ Pasticcerie",
-      description: "Pasticcerie tradizionali che mostrano i loro migliori cannoli"
+      title: "20+ Bakeries",
+      description: "Traditional bakeries showcasing their best Sfincione"
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: "Eventi dal Vivo",
-      description: "Dimostrazioni culinarie quotidiane di maestri pasticcieri"
+      title: "Live Events",
+      description: "Daily cooking demonstrations by master chefs"
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Competizioni",
-      description: "Premi annuali e riconoscimenti dalla scelta del pubblico"
+      title: "Competitions",
+      description: "Annual awards and people's choice recognition"
     },
     {
       icon: <History className="w-6 h-6" />,
-      title: "Storia Ricca",
-      description: "Celebrazione della tradizione siciliana e arbëreshë"
+      title: "Rich History",
+      description: "Celebrating centuries of Sicilian tradition"
     }
   ];
 
@@ -47,7 +48,7 @@ const AboutSection: React.FC = () => {
           >
    
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-            COS'È IL CANNOLO FEST
+            COS'È LO SFINCONE FEST
           </h2>
           <motion.div 
             className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full mb-8"
@@ -70,8 +71,9 @@ const AboutSection: React.FC = () => {
               className="space-y-6"
             >
             
-              <p className="text-gray-600 leading-relaxed">
-               È un evento unico nel suo genere che celebra uno dei simboli più gustosi e riconosciuti della pasticceria siciliana, forte attrattore enogastronomico e turistico, la cui produzione mobilita una filiera agroalimentare variegata e sostenibile.
+            <p className="text-gray-600 leading-relaxed">
+               E' un evento unico nel suo genere che celebra lo <b>sfincione</b> come ambasciatore del territorio, forte attrattore enogastronomico e turistico
+               , la cui produzione mobilita una filiera agroalimentare variegata e sostenibile.
               </p>
             </motion.div>
 
@@ -81,12 +83,15 @@ const AboutSection: React.FC = () => {
               className="space-y-6"
             >
               <h3 className="text-2xl font-bold text-gray-800">
-                La <span className="text-red-600">Storia</span> Arbëreshë
+                The <span className="text-red-600">Authentic</span> Experience
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Il Cannolo Fest è un omaggio alla storia degli Arbëreshë, il popolo albanese che si insediò più di 500 anni fa in questo territorio, portando con sé tradizioni e una ricca eredità culturale.
+                Experience the unique taste of Sfincione di Bagheria – a thick, spongy pizza topped 
+                with tomatoes, onions, anchovies, and caciocavallo cheese, all sprinkled with 
+                breadcrumbs, created through a time-honored process.
               </p>
             </motion.div>
+
 
             <motion.div
               whileHover={{ x: 10 }}
@@ -118,7 +123,7 @@ const AboutSection: React.FC = () => {
                 className="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-700/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
               <MotionImg
-                src="/about.JPG"
+                src="https://www.allfoodsicily.it/wp-content/uploads/2021/12/sfincione-di-bagheria--1536x1024.jpeg"
                 alt="Cannoli tradizionali siciliani"
                 className="w-full h-[400px] object-cover rounded-2xl"
                 whileHover={{ scale: 1.05 }}

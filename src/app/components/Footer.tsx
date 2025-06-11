@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           >
                   <a href="/" className="block">
          <img 
-                src="/logo.png" // Usa la versione scura del logo
+                src="/logoSfincione.png" // Usa la versione scura del logo
                 alt="Cannolo Fest Logo"
                 className="h-16 w-auto mb-4"
               />

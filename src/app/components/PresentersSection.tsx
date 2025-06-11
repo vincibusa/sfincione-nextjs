@@ -170,7 +170,7 @@ const PresentersSection: React.FC = () => {
           </div>
         </div>
 
-        {/* <div>
+         <div>
           <h3 className="text-2xl font-bold text-gray-800 mb-12 text-center">
             I Nostri Artisti
           </h3>
@@ -207,7 +207,7 @@ const PresentersSection: React.FC = () => {
               </MotionDiv>
             ))}
           </div>
-        </div> */}
+        </div> 
       </div>
     </section>
   );

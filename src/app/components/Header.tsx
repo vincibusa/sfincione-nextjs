@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from "react";
-
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -77,10 +77,13 @@ const Header: React.FC = () => {
           className="relative"
         >
           <a href="/" className="block">
-            <img 
-              src={scrolled ? "/logo.png" : "/logopre.png"}
+            <Image 
+              src="/logoSfincione.png"
               alt="Cannolo Fest Logo"
+              width={120}
+              height={120}
               className="h-12 md:h-16 w-auto transition-all duration-300"
+              priority
             />
           </a>
         </MotionDiv>
@@ -146,9 +149,11 @@ const Header: React.FC = () => {
         >
           <div className="p-6 border-b border-gray-100">
             <div className="flex justify-between items-center">
-              <img 
-                src="/logo.png"
+              <Image 
+                src="/logoSfincione.png"
                 alt="Cannolo Fest Logo"
+                width={64}
+                height={64}
                 className="h-16 w-auto"
               />
               <button
