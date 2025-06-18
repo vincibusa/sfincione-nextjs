@@ -14,21 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cannolo Fest | Festival del Cannolo Siciliano e della Cultura Arbëreshë",
-  description: "Scopri il Cannolo Fest, il festival che celebra il cannolo siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie, competizioni e tradizioni siciliane.",
-  keywords: ["cannolo siciliano", "festival gastronomico", "pasticceria siciliana", "cultura arbëreshë", "eventi gastronomici sicilia", "tradizioni siciliane"],
-  authors: [{ name: "Catanzaro & Partners" }],
-  creator: "Cannolo Fest",
-  publisher: "Cannolo Fest",
-  metadataBase: new URL("https://cannolofest.it"),
+  title: "Sfincione Fest | Festival dello Sfincione Siciliano e della Cultura Arbëreshë",
+  description: "Scopri lo Sfincione Fest, il festival che celebra lo sfincione siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie, competizioni e tradizioni siciliane.",
+  keywords: ["sfincione siciliano", "festival gastronomico", "pasticceria siciliana", "cultura arbëreshë", "eventi gastronomici sicilia", "tradizioni siciliane"],
+  authors: [{ name: "Sfincione Fest" }],
+  creator: "Sfincione Fest",
+  publisher: "Sfincione Fest",
+  metadataBase: new URL("https://sfincionefest.it"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Cannolo Fest | Festival del Cannolo Siciliano",
-    description: "Festival che celebra il cannolo siciliano con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
-    url: "https://cannolofest.it",
-    siteName: "Cannolo Fest",
+    title: "Sfincione Fest | Festival dello Sfincione Siciliano",
+    description: "Festival che celebra lo sfincione siciliano con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
+    url: "https://sfincionefest.it",
+    siteName: "Sfincione Fest",
     locale: "it_IT",
     type: "website",
     images: [
@@ -36,16 +36,16 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Cannolo Fest - Festival del Cannolo Siciliano",
+        alt: "Sfincione Fest - Festival dello Sfincione Siciliano",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cannolo Fest | Festival del Cannolo Siciliano",
-    description: "Festival che celebra il cannolo siciliano con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
-    images: ["/twitter-image.jpg"],
-    creator: "@cannolofest",
+    title: "Sfincione Fest | Festival dello Sfincione Siciliano",
+    description: "Festival che celebra lo sfincione siciliano con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
+    images: ["/og-image.jpg"],
+    creator: "@sfincionefest",
   },
   robots: {
     index: true,
@@ -69,10 +69,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Festival",
-              "name": "Cannolo Fest",
-              "description": "Festival che celebra il cannolo siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
-              "image": "https://cannolofest.it/og-image.jpg",
-              "url": "https://cannolofest.it",
+              "name": "Sfincione Fest",
+              "description": "Festival che celebra lo sfincione siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
+              "image": "https://sfincionefest.it/og-image.jpg",
+              "url": "https://sfincionefest.it",
               "startDate": "2024-05-17T10:30:00+02:00",
               "endDate": "2024-05-18T23:00:00+02:00",
               "performer": [
@@ -115,7 +115,7 @@ export default function RootLayout({
               "organizer": {
                 "@type": "Organization",
                 "name": "Catanzaro & Partners",
-                "url": "https://cannolofest.it"
+                "url": "https://sfincionefest.it"
               },
               "offers": {
                 "@type": "Offer",
@@ -123,7 +123,7 @@ export default function RootLayout({
                 "price": "0",
                 "priceCurrency": "EUR",
                 "validFrom": "2023-01-01T00:00:00+00:00",
-                "url": "https://cannolofest.it/tickets"
+                "url": "https://sfincionefest.it/tickets"
               },
               "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
               "eventStatus": "https://schema.org/EventScheduled"

@@ -44,7 +44,7 @@ const HeroVideo: React.FC = () => {
               <div className="flex justify-center mb-4">
                 <Image 
                   src="/logoSfincione.png" 
-                  alt="Cannolo Fest" 
+                  alt="Sfincione Fest" 
                   width={320}
                   height={320}
                   className="h-32 md:h-40 object-contain"

@@ -9,19 +9,19 @@ const MotionDiv = motion.div;
 const scheduleDays = [
   {
     day: "17 Maggio",
-    title: "Sabato - Cannolo Open & Eventi",
-    time: "10:30 - 23:00", // Overall time from "CANNOLO OPEN Ore 10:30-23:00"
+    title: "Sabato - Sfincione Open & Eventi",
+    time: "10:30 - 23:00", // Overall time from "SFINCIONE OPEN Ore 10:30-23:00"
     color: "red",
     events: [
       {
         time: "10:30 - 23:00",
-        desc: "Cannolo Taste e Cannolo Expo. Inaugurazione del festival.", // From image: "CANNOLO TASTE, Cannolo Expo INAUGURAZIONE DEL FESTIVAL"
+        desc: "Sfincione Taste e Sfincione Expo. Inaugurazione del festival.", // From image: "SFINCIONE TASTE, Sfincione Expo INAUGURAZIONE DEL FESTIVAL"
         location: "Piazza Vittorio Emanuele", // From image top right
         type: "Esposizione"
       },
       {
         time: "11:00", // From image: "Ore 11:00"
-        desc: "Talk Show: 'Il cannolo prodotto identitario e principe dei dolci dell'enogastronomia siciliana'.", // From image: "TALK SHOW Il cannolo: prodotto identitario e principe dei dolci dell'enogastronomia siciliana"
+        desc: "Talk Show: 'Lo sfincione prodotto identitario e principe dei dolci dell'enogastronomia siciliana'.", // From image: "TALK SHOW Lo sfincione: prodotto identitario e principe dei dolci dell'enogastronomia siciliana"
         location: "Palco Centrale", // Inferred, standard for such an event
         type: "Culturale"
       },
@@ -59,19 +59,19 @@ const scheduleDays = [
   },
   {
     day: "18 Maggio",
-    title: "Domenica - Cannolo Open & Eventi",
-    time: "10:30 - 23:00", // Overall time from "CANNOLO OPEN Ore 10:30-23:00"
+    title: "Domenica - Sfincione Open & Eventi",
+    time: "10:30 - 23:00", // Overall time from "SFINCIONE OPEN Ore 10:30-23:00"
     color: "red",
     events: [
       {
         time: "10:30 - 23:00",
-        desc: "Cannolo Taste e Cannolo Expo. Inaugurazione del festival.", // From image: "CANNOLO TASTE, Cannolo Expo INAUGURAZIONE DEL FESTIVAL"
+        desc: "Sfincione Taste e Sfincione Expo. Inaugurazione del festival.", // From image: "SFINCIONE TASTE, Sfincione Expo INAUGURAZIONE DEL FESTIVAL"
         location: "Piazza Vittorio Emanuele", // From image top right
         type: "Esposizione"
       },
       {
         time: "11:00", // From image: "Ore 11:00"
-        desc: "Premio Cannolo Ambassador 2025 a Gianni Marino (volto TV e concorrente della 14ª di Master Chef Italia).", // From image: "CANNOLO AMBASSADOR 2025 Premio a Gianni Marino, volto TV e concorrente della 14ª di Master Chef Italia."
+        desc: "Premio Sfincione Ambassador 2025 a Gianni Marino (volto TV e concorrente della 14ª di Master Chef Italia).", // From image: "SFINCIONE AMBASSADOR 2025 Premio a Gianni Marino, volto TV e concorrente della 14ª di Master Chef Italia."
         location: "Palco Centrale", // Inferred
         type: "Cerimonia"
       },
@@ -101,7 +101,7 @@ const scheduleDays = [
       },
       {
         time: "18:00 - 22:00", // From image: "Ore 18:00-22:00"
-        desc: "Man vs Cannolo Competition: La sfida a chi mangia il cannolo più grande.", // From image: "MAN VS CANNOLO COMPETITION La sfida a chi mangia il cannolo più grande."
+        desc: "Man vs Sfincione Competition: La sfida a chi mangia lo sfincione più grande.", // From image: "MAN VS SFINCIONE COMPETITION La sfida a chi mangia lo sfincione più grande."
         location: "Palco Competizioni", // Inferred
         type: "Competizione"
       },
@@ -140,7 +140,7 @@ const ScheduleSection: React.FC = () => {
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto text-sm sm:text-base px-2">
-            Unisciti a noi per due giorni di eccellenza culinaria, intrattenimento e celebrazione culturale. Tutti gli eventi sono programmati con cura per garantirti di non perdere nessuna delle emozioni del Cannolo Fest.
+                          Unisciti a noi per due giorni di eccellenza culinaria, intrattenimento e celebrazione culturale. Tutti gli eventi sono programmati con cura per garantirti di non perdere nessuna delle emozioni dello Sfincione Fest.
           </p>
         </MotionDiv>
 

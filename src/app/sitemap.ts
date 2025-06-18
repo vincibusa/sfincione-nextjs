@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://cannolofest.it';
+  const baseUrl = 'https://sfincionefest.it';
   
   return [
     {

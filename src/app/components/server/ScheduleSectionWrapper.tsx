@@ -13,7 +13,7 @@ export default function ScheduleSectionWrapper() {
         "position": 1,
         "item": {
           "@type": "Event",
-          "name": "Cannolo Taste e Cannolo Expo",
+          "name": "Sfincione Taste e Sfincione Expo",
           "description": "Inaugurazione del festival con stand espositivi e degustazioni.",
           "startDate": "2024-05-17T10:30:00+02:00",
           "endDate": "2024-05-17T23:00:00+02:00",
@@ -31,7 +31,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -42,8 +42,8 @@ export default function ScheduleSectionWrapper() {
         "position": 2,
         "item": {
           "@type": "Event",
-          "name": "Talk Show: Il cannolo prodotto identitario",
-          "description": "Talk Show: 'Il cannolo prodotto identitario e principe dei dolci dell'enogastronomia siciliana'.",
+          "name": "Talk Show: Lo sfincione prodotto identitario",
+          "description": "Talk Show: 'Lo sfincione prodotto identitario e principe dei dolci dell'enogastronomia siciliana'.",
           "startDate": "2024-05-17T11:00:00+02:00", 
           "endDate": "2024-05-17T12:00:00+02:00",
           "performer": {
@@ -64,7 +64,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -98,7 +98,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -132,7 +132,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -167,7 +167,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -201,7 +201,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -212,13 +212,13 @@ export default function ScheduleSectionWrapper() {
         "position": 7,
         "item": {
           "@type": "Event",
-          "name": "Man vs Cannolo Competition",
-          "description": "La sfida a chi mangia il cannolo più grande.",
+          "name": "Man vs Sfincione Competition",
+          "description": "La sfida a chi mangia lo sfincione più grande.",
           "startDate": "2024-05-18T18:00:00+02:00", 
           "endDate": "2024-05-18T22:00:00+02:00",
           "performer": {
             "@type": "Organization",
-            "name": "Cannolo Fest"
+            "name": "Sfincione Fest"
           },
           "location": {
             "@type": "Place",
@@ -234,7 +234,7 @@ export default function ScheduleSectionWrapper() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "EUR",
-            "url": "https://cannolofest.it/tickets"
+            "url": "https://sfincionefest.it/tickets"
           },
           "eventStatus": "https://schema.org/EventScheduled",
           "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"

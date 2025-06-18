@@ -13,16 +13,16 @@ export default function AboutSectionWrapper() {
             "@type": "AboutPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "Cannolo Fest",
-              "description": "Festival che celebra il cannolo siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
-              "image": "https://cannolofest.it/about.JPG",
-              "url": "https://cannolofest.it/#about",
+              "name": "Sfincione Fest",
+              "description": "Festival che celebra lo sfincione siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
+              "image": "https://sfincionefest.it/about.JPG",
+              "url": "https://sfincionefest.it/#about",
               "foundingDate": "2023",
               "knowsAbout": [
                 "Pasticceria siciliana",
                 "Cultura Arbëreshë",
                 "Tradizioni culinarie siciliane", 
-                "Cannolo siciliano"
+                "Sfincione siciliano"
               ],
               "areaServed": {
                 "@type": "Place",

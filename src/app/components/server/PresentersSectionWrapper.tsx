@@ -20,14 +20,14 @@ export default function PresentersSectionWrapper() {
                   "name": "Sasà Salvaggio",
                   "jobTitle": "Conduttore",
                   "description": "Comico, conduttore e attore televisivo siciliano, noto per il suo umorismo",
-                  "image": "https://cannolofest.it/personaggi/sasa-salvaggio.png",
+                  "image": "https://sfincionefest.it/personaggi/sasa-salvaggio.png",
                   "sameAs": [
                     "https://www.instagram.com/sasa_salvaggio/",
                     "https://twitter.com/sasa_salvaggio"
                   ],
                   "performerIn": {
                     "@type": "Event",
-                    "name": "Cannolo Fest",
+                    "name": "Sfincione Fest",
                     "startDate": "2024-05-17T10:30:00+02:00",
                     "location": {
                       "@type": "Place",
@@ -50,14 +50,14 @@ export default function PresentersSectionWrapper() {
                   "name": "Barbara Politi",
                   "jobTitle": "Conduttrice",
                   "description": "Giornalista e conduttrice televisiva. Ha lavorato per Gazzetta del Mezzogiorno, Gambero Rosso tv e Rai",
-                  "image": "https://cannolofest.it/personaggi/marianna-bonanno.png",
+                  "image": "https://sfincionefest.it/personaggi/marianna-bonanno.png",
                   "sameAs": [
                     "https://www.instagram.com/barbara_politi/",
                     "https://twitter.com/barbara_politi"
                   ],
                   "performerIn": {
                     "@type": "Event",
-                    "name": "Cannolo Fest",
+                    "name": "Sfincione Fest",
                     "startDate": "2024-05-17T10:30:00+02:00",
                     "location": {
                       "@type": "Place",
@@ -80,14 +80,14 @@ export default function PresentersSectionWrapper() {
                   "name": "Nadia La Malfa",
                   "jobTitle": "Giornalista sportiva",
                   "description": "Giornalista sportiva e comunicatrice istituzionale palermitana",
-                  "image": "https://cannolofest.it/personaggi/nadia-la-malfa.png",
+                  "image": "https://sfincionefest.it/personaggi/nadia-la-malfa.png",
                   "sameAs": [
                     "https://www.instagram.com/nadia_lamalfa/",
                     "https://twitter.com/nadia_lamalfa"
                   ],
                   "performerIn": {
                     "@type": "Event",
-                    "name": "Cannolo Fest",
+                    "name": "Sfincione Fest",
                     "startDate": "2024-05-17T10:30:00+02:00",
                     "location": {
                       "@type": "Place",
@@ -108,7 +108,7 @@ export default function PresentersSectionWrapper() {
                 "item": {
                   "@type": "MusicGroup",
                   "name": "I Cugini di Campagna",
-                  "image": "https://cannolofest.it/concerti/cugini-campagna.png",
+                  "image": "https://sfincionefest.it/concerti/cugini-campagna.png",
                   "performerIn": {
                     "@type": "MusicEvent",
                     "name": "Concerto I Cugini di Campagna",
@@ -132,7 +132,7 @@ export default function PresentersSectionWrapper() {
                 "item": {
                   "@type": "MusicGroup",
                   "name": "I Quaranta che Ballano i 90",
-                  "image": "https://cannolofest.it/concerti/quaranta2.png",
+                  "image": "https://sfincionefest.it/concerti/quaranta2.png",
                   "performerIn": {
                     "@type": "MusicEvent",
                     "name": "Concerto I Quaranta che Ballano i 90",
@@ -156,7 +156,7 @@ export default function PresentersSectionWrapper() {
                 "item": {
                   "@type": "MusicGroup",
                   "name": "Sugarfree",
-                  "image": "https://cannolofest.it/concerti/sugarfree.png",
+                  "image": "https://sfincionefest.it/concerti/sugarfree.png",
                   "performerIn": {
                     "@type": "MusicEvent",
                     "name": "Concerto Sugarfree",

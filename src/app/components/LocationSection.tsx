@@ -8,12 +8,12 @@ const MotionDiv = motion.div;
 const MotionImg = motion.img;
 
 const LocationSection: React.FC = () => {
-  // Coordinate di Piana degli Albanesi
-  const coordinates = "37.9947,13.2814";
-  const locationName = "Piana+degli+Albanesi,+Sicilia";
+  // Coordinate di Bagheria - Corso Umberto I
+  const coordinates = "38.078638,13.507068";
+  const locationName = "Corso+Umberto+I,+Bagheria,+PA";
   
   // URL per mappa e navigazione
-  const mapsUrl = `https://maps.google.com/maps?q=${coordinates}&z=15&t=m&output=embed`;
+  const mapsUrl = `https://maps.google.com/maps?q=${coordinates}&z=17&t=m&output=embed`;
   const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${coordinates}&destination_place_id=${locationName}`;
   
   // Gestori eventi per aprire le mappe
@@ -24,7 +24,7 @@ const LocationSection: React.FC = () => {
   
   const handleOpenMap = (e: React.MouseEvent) => {
     e.preventDefault();
-    window.open(mapsUrl, '_blank');
+    window.open("https://www.google.it/maps/place/Corso+Umberto+I,+90011+Bagheria+PA/@38.078638,13.507068,17z/data=!3m1!4b1!4m6!3m5!1s0x1319e2f7eff195ab:0x5404a11c63305515!8m2!3d38.0786338!4d13.5096429!16s%2Fg%2F1vqt27yj?hl=it&entry=ttu&g_ep=EgoyMDI1MDYxNS4wIKXMDSoASAFQAw%3D%3D", '_blank');
   };
 
   return (
@@ -61,7 +61,7 @@ const LocationSection: React.FC = () => {
             <div className="relative overflow-hidden rounded-xl shadow-lg border border-gray-200">
               <MotionImg
                 src="/luogo.JPG"
-                alt="Piana degli Albanesi, Sicilia"
+                alt="Bagheria, Sicilia"
                 className="w-full h-auto"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 1 }}
@@ -80,18 +80,18 @@ const LocationSection: React.FC = () => {
               <div className="flex items-center gap-3">
                 <MapPinIcon size={28} className="text-red-600" />
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-800">
-                  Piana degli Albanesi
+                  Bagheria
                 </h3>
               </div>
-              <p className="text-gray-600 pl-10">Palermo, Sicilia</p>
+              <p className="text-gray-600 pl-10">Corso Umberto I, Palermo, Sicilia</p>
             </div>
 
             <div className="space-y-4">
               <p className="text-base sm:text-lg text-gray-600">
-                Piana degli Albanesi è una pittoresca cittadina a circa 25 km da Palermo, famosa per la sua storia unica come comunità arbëreshë (italo-albanese) fondata nel XV secolo.
+                Bagheria è una vivace cittadina a circa 15 km da Palermo, famosa per le sue ville settecentesche e la sua ricca tradizione gastronomica siciliana.
               </p>
               <p className="text-base sm:text-lg text-gray-600">
-                È conosciuta per le sue tradizioni culinarie, tra cui il famoso cannolo siciliano, e per la sua vibrante cultura che fonde elementi albanesi e siciliani.
+                È conosciuta per le sue tradizioni culinarie, tra cui il famoso sfincione siciliano, e per la sua posizione strategica nella provincia palermitana.
               </p>
             </div>
 
@@ -114,8 +114,8 @@ const LocationSection: React.FC = () => {
               <div className="flex items-start gap-3">
                 <Info className="w-5 h-5 text-red-600 mt-1" />
                 <div>
-                  <h4 className="font-medium text-gray-800">La Tradizione Arbëreshë</h4>
-                  <p className="text-gray-600">Piana degli Albanesi mantiene ancora oggi la lingua, i costumi e le tradizioni portate dagli albanesi che si insediarono qui più di 500 anni fa, fuggendo dall'invasione ottomana dell'Albania.</p>
+                  <h4 className="font-medium text-gray-800">La Tradizione Gastronomica</h4>
+                  <p className="text-gray-600">Bagheria è rinomata per la sua tradizione gastronomica siciliana e rappresenta un punto di incontro ideale per celebrare l'eccellenza culinaria dell'isola con il suo sfincione tradizionale.</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">

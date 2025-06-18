@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin/', '/api/'],
     },
-    sitemap: 'https://cannolofest.it/sitemap.xml',
+    sitemap: 'https://sfincionefest.it/sitemap.xml',
   };
 } 

@@ -19,7 +19,7 @@ export default function EventHighlightsWrapper() {
                   "@type": "Event",
                   "name": "Cooking Demonstrations",
                   "description": "Watch master chefs prepare authentic Sfincione using traditional techniques and learn their secrets.",
-                  "image": "https://cannolofest.it/demo-cooking.jpg",
+                  "image": "https://sfincionefest.it/demo-cooking.jpg",
                   "startDate": "2024-05-17T11:00:00+02:00",
                   "endDate": "2024-05-17T16:00:00+02:00",
                   "location": {
@@ -40,7 +40,7 @@ export default function EventHighlightsWrapper() {
                     "@type": "Offer",
                     "price": "0",
                     "priceCurrency": "EUR",
-                    "url": "https://cannolofest.it/tickets"
+                    "url": "https://sfincionefest.it/tickets"
                   },
                   "eventStatus": "https://schema.org/EventScheduled",
                   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -53,7 +53,7 @@ export default function EventHighlightsWrapper() {
                   "@type": "Event",
                   "name": "Tasting Competition",
                   "description": "Sample varieties of Sfincione from different bakers and vote for your favorite in our people's choice award.",
-                  "image": "https://cannolofest.it/tasting.jpg",
+                  "image": "https://sfincionefest.it/tasting.jpg",
                   "startDate": "2024-05-18T14:00:00+02:00",
                   "endDate": "2024-05-18T16:00:00+02:00",
                   "location": {
@@ -74,7 +74,7 @@ export default function EventHighlightsWrapper() {
                     "@type": "Offer",
                     "price": "0",
                     "priceCurrency": "EUR",
-                    "url": "https://cannolofest.it/tickets"
+                    "url": "https://sfincionefest.it/tickets"
                   },
                   "eventStatus": "https://schema.org/EventScheduled",
                   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
@@ -87,7 +87,7 @@ export default function EventHighlightsWrapper() {
                   "@type": "Event",
                   "name": "Cultural Performances",
                   "description": "Enjoy traditional Sicilian music and dance performances throughout the festival.",
-                  "image": "https://cannolofest.it/performance.jpg",
+                  "image": "https://sfincionefest.it/performance.jpg",
                   "startDate": "2024-05-17T18:00:00+02:00",
                   "endDate": "2024-05-17T20:00:00+02:00",
                   "location": {
@@ -108,7 +108,7 @@ export default function EventHighlightsWrapper() {
                     "@type": "Offer",
                     "price": "0",
                     "priceCurrency": "EUR",
-                    "url": "https://cannolofest.it/tickets"
+                    "url": "https://sfincionefest.it/tickets"
                   },
                   "eventStatus": "https://schema.org/EventScheduled",
                   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"

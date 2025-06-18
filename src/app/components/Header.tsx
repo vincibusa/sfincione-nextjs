@@ -79,7 +79,7 @@ const Header: React.FC = () => {
           <a href="/" className="block">
             <Image 
               src="/logoSfincione.png"
-              alt="Cannolo Fest Logo"
+              alt="Sfincione Fest Logo"
               width={120}
               height={120}
               className="h-12 md:h-16 w-auto transition-all duration-300"
@@ -151,7 +151,7 @@ const Header: React.FC = () => {
             <div className="flex justify-between items-center">
               <Image 
                 src="/logoSfincione.png"
-                alt="Cannolo Fest Logo"
+                alt="Sfincione Fest Logo"
                 width={64}
                 height={64}
                 className="h-16 w-auto"
@@ -192,7 +192,7 @@ const Header: React.FC = () => {
           </div>
           
           <div className="p-4 text-center text-sm text-gray-500 border-t border-gray-100">
-            <p>© {new Date().getFullYear()} Cannolo Fest</p>
+            <p>© {new Date().getFullYear()} Sfincione Fest</p>
           </div>
         </MotionDiv>
       )}

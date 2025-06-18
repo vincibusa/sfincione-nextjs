@@ -10,22 +10,22 @@ const MotionImg = motion.img;
 
 const competitions = [
   {
-    title: "Il Miglior Cannolo di Sicilia",
+    title: "Il Miglior Sfincione di Sicilia",
     description:
-      "La competizione principale del festival dove pasticceri professionisti si sfidano per creare il cannolo più autentico e delizioso secondo la tradizione siciliana.",
+      "La competizione principale del festival dove pasticceri professionisti si sfidano per creare lo sfincione più autentico e delizioso secondo la tradizione siciliana.",
     image:
       "https://images.unsplash.com/photo-1635924339056-b122fb1e418e?w=800&q=80",
     details: [
       "Aperto a pasticceri professionisti",
       "Giudicato da una giuria di esperti culinari",
-      "Premio di €1.000 e il trofeo 'Cannolo d'Oro'",
+      "Premio di €1.000 e il trofeo 'Sfincione d'Oro'",
       "Domenica, ore 11:00 sul Palco Principale",
     ],
   },
   {
     title: "Premio Scelta del Pubblico",
     description:
-      "I visitatori del festival assaggiano e votano il loro cannolo preferito tra tutti quelli proposti dagli stand partecipanti.",
+      "I visitatori del festival assaggiano e votano il loro sfincione preferito tra tutti quelli proposti dagli stand partecipanti.",
     image:
       "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&q=80",
     details: [
@@ -41,42 +41,42 @@ const contests = [
   {
     title: "Sfida dei Pasticceri Amatoriali",
     description:
-      "I cuochi casalinghi competono per creare la loro personale interpretazione del cannolo siciliano utilizzando ingredienti forniti dall'organizzazione.",
+      "I cuochi casalinghi competono per creare la loro personale interpretazione dello sfincione siciliano utilizzando ingredienti forniti dall'organizzazione.",
     time: "Sabato, ore 15:00",
     prize: "€300 + Corso di Pasticceria",
   },
   {
     title: "Concorso Junior Pasticceri",
     description:
-      "Giovani chef dai 8-14 anni mostrano le loro abilità nella preparazione dei cannoli in un ambiente divertente e stimolante.",
+      "Giovani chef dai 8-14 anni mostrano le loro abilità nella preparazione degli sfincioncini in un ambiente divertente e stimolante.",
     time: "Domenica, ore 10:00",
     prize: "Kit da Pasticceria + Medaglia",
   },
   {
-    title: "Sfida Cannolo Speed",
+    title: "Sfida Sfincione Speed",
     description:
-      "I concorrenti gareggiano contro il tempo per preparare un cannolo perfetto in soli 20 minuti.",
+      "I concorrenti gareggiano contro il tempo per preparare uno sfincione perfetto in soli 20 minuti.",
     time: "Sabato, ore 17:00",
     prize: "€200 + Trofeo",
   },
   {
     title: "Premio Ricotta Creativa",
     description:
-      "I pasticceri competono per creare la farcitura di ricotta più innovativa e deliziosa per i loro cannoli.",
+      "I pasticceri competono per creare la farcitura più innovativa e deliziosa per i loro sfincioncini.",
     time: "Domenica, ore 14:00",
     prize: "€250 + Pubblicazione Ricetta",
   },
   {
     title: "Sfida Ricetta Tradizionale",
     description:
-      "I concorrenti preparano cannoli seguendo metodi tradizionali, giudicati dagli anziani della comunità arbëreshë.",
+      "I concorrenti preparano sfincioncini seguendo metodi tradizionali, giudicati dagli anziani della comunità arbëreshë.",
     time: "Sabato, ore 16:00",
     prize: "€350 + Certificato",
   },
   {
     title: "Concorso Fotografia Gastronomica",
     description:
-      "Cattura la bellezza dei cannoli e i momenti del festival per avere la possibilità di vincere premi.",
+      "Cattura la bellezza degli sfincioncini e i momenti del festival per avere la possibilità di vincere premi.",
     time: "Tutto il Weekend",
     prize: "Attrezzatura Fotografica",
   },
@@ -257,7 +257,7 @@ const CompetitionsSection: React.FC = () => {
               Sei pronto a mostrare le tue abilità?
             </h3>
             <p className="text-gray-600 mb-8">
-              Scarica il modulo d'iscrizione e partecipa a una o più competizioni del Cannolo Fest 2025. 
+              Scarica il modulo d'iscrizione e partecipa a una o più competizioni dello Sfincione Fest 2025. 
               Ogni categoria offre l'opportunità di vincere premi esclusivi e il riconoscimento della comunità gastronomica siciliana.
             </p>
             <button className="bg-gradient-to-r from-amber-500 to-red-600 hover:from-amber-600 hover:to-red-700 text-white py-6 px-8 rounded-xl text-lg font-medium flex items-center justify-center mx-auto">

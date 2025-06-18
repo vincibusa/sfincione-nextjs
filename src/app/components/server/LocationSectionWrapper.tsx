@@ -11,20 +11,22 @@ export default function LocationSectionWrapper() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Place",
-            "name": "Piana degli Albanesi",
-            "description": "Cittadina pittoresca a circa 25 km da Palermo, famosa per la sua storia unica come comunità arbëreshë (italo-albanese) fondata nel XV secolo. Sede del Cannolo Fest.",
-            "image": "https://cannolofest.it/luogo.JPG",
-            "url": "https://cannolofest.it/#location",
+            "name": "Bagheria",
+            "description": "Bagheria è una vivace cittadina della provincia di Palermo famosa per le sue ville settecentesche e la sua ricca tradizione gastronomica siciliana. È conosciuta per le sue tradizioni culinarie, tra cui il famoso sfincione siciliano, e per la sua posizione strategica nella provincia palermitana. La città rappresenta un punto di incontro ideale per celebrare l'eccellenza culinaria dell'isola. Sede dello Sfincione Fest.",
+            "image": "https://sfincionefest.it/luogo.JPG",
+            "url": "https://sfincionefest.it/#location",
             "telephone": "+39 327 167 7871",
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "37.9947",
-              "longitude": "13.2814"
+              "latitude": 38.078638,
+              "longitude": 13.507068
             },
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Piana degli Albanesi",
+              "streetAddress": "Corso Umberto I",
+              "addressLocality": "Bagheria",
               "addressRegion": "Palermo",
+              "postalCode": "90011",
               "addressCountry": "IT"
             },
             "additionalProperty": [
@@ -40,7 +42,7 @@ export default function LocationSectionWrapper() {
               }
             ],
             "publicAccess": true,
-            "tourBookingPage": "https://cannolofest.it/tickets",
+            "tourBookingPage": "https://sfincionefest.it/tickets",
             "hasMap": "https://maps.google.com/maps?q=37.9947,13.2814&z=15"
           })
         }}

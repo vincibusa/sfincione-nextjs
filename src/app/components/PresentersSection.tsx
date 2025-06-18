@@ -101,7 +101,7 @@ const PresentersSection: React.FC = () => {
             whileHover={{ width: "120px" }}
                     />
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Scopri i talentuosi presentatori, chef e artisti che renderanno il Cannolo Fest un'esperienza indimenticabile
+            Scopri i talentuosi presentatori, chef e artisti che renderanno lo Sfincione Fest un'esperienza indimenticabile
           </p>
               </MotionDiv>
 

@@ -11,15 +11,15 @@ export default function HeroVideoWrapper() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Festival",
-            "name": "Cannolo Fest",
-            "description": "Il primo festival del cannolo nel mondo. Celebrazione della tradizione pasticcera siciliana e della cultura arbëreshë.",
-            "image": "https://cannolofest.it/logohero.png",
+            "name": "Sfincione Fest",
+            "description": "Il primo festival dello sfincione nel mondo. Celebrazione della tradizione pasticcera siciliana e della cultura arbëreshë.",
+            "image": "https://sfincionefest.it/logohero.png",
             "video": {
               "@type": "VideoObject",
-              "name": "Cannolo Fest Promo Video",
-              "description": "Video promozionale del Cannolo Fest, il primo festival del cannolo nel mondo",
-              "thumbnailUrl": "https://cannolofest.it/og-image.jpg",
-              "contentUrl": "https://cannolofest.it/cannoloVideo.mp4",
+              "name": "Sfincione Fest Promo Video",
+              "description": "Video promozionale dello Sfincione Fest, il primo festival dello sfincione nel mondo",
+              "thumbnailUrl": "https://sfincionefest.it/og-image.jpg",
+              "contentUrl": "https://sfincionefest.it/sfincioneVideo.mp4",
               "uploadDate": "2024-01-01T08:00:00+01:00",
               "duration": "PT30S"
             },
@@ -40,7 +40,7 @@ export default function HeroVideoWrapper() {
             "organizer": {
               "@type": "Organization",
               "name": "Catanzaro & Partners",
-              "url": "https://cannolofest.it"
+              "url": "https://sfincionefest.it"
             },
             "offers": {
               "@type": "Offer",
@@ -48,7 +48,7 @@ export default function HeroVideoWrapper() {
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "validFrom": "2024-01-01T00:00:00+01:00",
-              "url": "https://cannolofest.it/tickets"
+              "url": "https://sfincionefest.it/tickets"
             },
             "performer": [
               {

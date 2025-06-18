@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                   <a href="/" className="block">
          <img 
                 src="/logoSfincione.png" // Usa la versione scura del logo
-                alt="Cannolo Fest Logo"
+                alt="Sfincione Fest Logo"
                 className="h-16 w-auto mb-4"
               />
               </a>
@@ -128,7 +128,7 @@ const Footer: React.FC = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-gray-600">info@cannolofest.com</span>
+                <span className="text-gray-600">info@sfincionefest.com</span>
               </li>
             </ul>
           </MotionDiv>
@@ -136,7 +136,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-500">
-            &copy; {new Date().getFullYear()} Cannolo Fest. Tutti i diritti riservati.
+            &copy; {new Date().getFullYear()} Sfincione Fest. Tutti i diritti riservati.
           </p>
         </div>
       </div>
