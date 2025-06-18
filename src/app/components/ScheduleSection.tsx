@@ -8,102 +8,152 @@ const MotionDiv = motion.div;
 
 const scheduleDays = [
   {
-    day: "17 Maggio",
-    title: "Sabato - Sfincione Open & Eventi",
-    time: "10:30 - 23:00", // Overall time from "SFINCIONE OPEN Ore 10:30-23:00"
+    day: "22 Novembre",
+    title: "Venerdì - Sfincione Open & Eventi",
+    time: "17:00 - 22:00",
     color: "red",
     events: [
       {
-        time: "10:30 - 23:00",
-        desc: "Sfincione Taste e Sfincione Expo. Inaugurazione del festival.", // From image: "SFINCIONE TASTE, Sfincione Expo INAUGURAZIONE DEL FESTIVAL"
-        location: "Piazza Vittorio Emanuele", // From image top right
+        time: "17:00",
+        desc: "Sfincione Open - Inaugurazione del Festival. Piazza Garibaldi - Sfincione Taste.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Esposizione"
       },
       {
-        time: "11:00", // From image: "Ore 11:00"
-        desc: "Talk Show: 'Lo sfincione prodotto identitario e principe dei dolci dell'enogastronomia siciliana'.", // From image: "TALK SHOW Lo sfincione: prodotto identitario e principe dei dolci dell'enogastronomia siciliana"
-        location: "Palco Centrale", // Inferred, standard for such an event
-        type: "Culturale"
-      },
-      {
-        time: "17:00", // From image: "Ore 17:00"
-        desc: "Presentazione libro di Mario Liberto: 'Storia dell'enogastronomia siciliana. Da Polifemo alla patria alimentare'.", // From image: "PRESENTAZIONE LIBRO Presentazione del libro di Mario Liberto 'Storia dell'enogastronomia siciliana. Da Polifemo alla patria alimentare'"
-        location: "Area Cultura", // Inferred
-        type: "Culturale"
-      },
-      {
-        time: "18:00", // From image: "Ore 18:00"
-        desc: "Workshop sulla cassata con degustazione a cura di Giuseppe Sparacello.", // From image: "WORKSHOP GIUSEPPE SPARACELLO Workshop sulla cassata con degustazione."
-        location: "Area Workshop", // Inferred
+        time: "18:00",
+        desc: "Cooking Show con Giusina Battaglia - Cuoca e personaggio tv. Promosso dal Dipartimento Pesca Mediterranea della Regione Siciliana.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Workshop"
       },
       {
-        time: "19:00", // From image: "Ore 19:00"
-        desc: "Cooking Show con Salvatore Capizzi, patron e pizzaiolo di 'Molecola'.", // From image: "COOKING SHOW SALVATORE CAPIZZI patron e pizzaiolo di 'Molecola'"
-        location: "Palco Show Cooking", // Inferred
-        type: "Workshop" // Cooking shows are often workshop-like
+        time: "19:00",
+        desc: "Cooking Show con Gioachino Gargano - Patron e pizzaiolo di 'Saccharum'. Promosso dal Dipartimento Agricoltura della Regione Siciliana.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
       },
       {
-        time: "19:00", // From image: "Ore 19:00"
-        desc: "Sicily Young Pastry Chef Competition: La sfida per diventare il miglior giovane pasticcere della Sicilia.", // From image: "SICILY YOUNG PASTRY CHEF COMPETITION La sfida per diventare il miglior giovane pasticcere della Sicilia."
-        location: "Palco Competizioni", // Inferred
+        time: "19:00",
+        desc: "Sicily Young Bakery Competition - Semifinale. Promosso da Molini Riggi.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Competizione"
       },
       {
-        time: "22:00", // From image: "Ore 22:00"
-        desc: "Welcome to the Party: Una grande festa con DJ SET di Radio 105.", // From image: "WELCOME TO THE PARTY Una grande festa con DJ SET della radio più famosa d'Italia." (Logo Zoo 105 visible)
-        location: "Piazza Vittorio Emanuele", // Main event area
+        time: "20:00",
+        desc: "Pedalino vs Castaldo, Di Maggio vs Sclafani - Semifinali.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Competizione"
+      },
+      {
+        time: "22:00",
+        desc: "Concerto dei Cugini di Campagna.",
+        location: "Piazza Matrice",
         type: "Spettacolo"
       },
     ],
   },
   {
-    day: "18 Maggio",
-    title: "Domenica - Sfincione Open & Eventi",
-    time: "10:30 - 23:00", // Overall time from "SFINCIONE OPEN Ore 10:30-23:00"
+    day: "23 Novembre",
+    title: "Sabato - Cooking Show & Eventi",
+    time: "17:00 - 22:00",
     color: "red",
     events: [
       {
-        time: "10:30 - 23:00",
-        desc: "Sfincione Taste e Sfincione Expo. Inaugurazione del festival.", // From image: "SFINCIONE TASTE, Sfincione Expo INAUGURAZIONE DEL FESTIVAL"
-        location: "Piazza Vittorio Emanuele", // From image top right
-        type: "Esposizione"
-      },
-      {
-        time: "11:00", // From image: "Ore 11:00"
-        desc: "Premio Sfincione Ambassador 2025 a Gianni Marino (volto TV e concorrente della 14ª di Master Chef Italia).", // From image: "SFINCIONE AMBASSADOR 2025 Premio a Gianni Marino, volto TV e concorrente della 14ª di Master Chef Italia."
-        location: "Palco Centrale", // Inferred
-        type: "Cerimonia"
-      },
-      {
-        time: "12:00", // From image: "Ore 12:00"
-        desc: "Talk Show: 'Un'isola premiata dal gusto con il riconoscimento di Sicilia Regione Gastronomica 2025'.", // From image: "TALK SHOW Un'isola premiata dal gusto con il riconoscimento di Sicilia Regione Gastronomica 2025."
-        location: "Area Cultura", // Inferred
-        type: "Culturale"
-      },
-      {
-        time: "13:00", // From image: "Ore 13:00"
-        desc: "Workshop: 'Lo Street Food siciliano autentico di Ke Palle' con degustazione.", // From image: "WORKSHOP KE PALLE 'Street Food siciliano autentico di Ke Palle' con degustazione."
-        location: "Area Workshop", // Inferred
+        time: "17:00",
+        desc: "Cooking Show con Pierangelo Chifari - Patron e pizzaiolo di 'Archestrato di Gela'. Promosso da Moretti Forni e Sagrim.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Workshop"
       },
       {
-        time: "16:00", // From image: "Ore 16:00"
-        desc: "Workshop sul panettone con degustazione a cura di Mario Fiasconaro.", // From image: "WORKSHOP MARIO FIASCONARO Workshop sul panettone con degustazione."
-        location: "Area Workshop", // Inferred
+        time: "18:00",
+        desc: "Cooking Show con Tony Lo Coco - Chef patron del ristorante stellato 'I Pupi'.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Workshop"
       },
       {
-        time: "17:00", // From image: "Ore 17:00"
-        desc: "Workshop sulla cassata con degustazione a cura di Giovanni Cappello.", // From image: "WORKSHOP GIOVANNI CAPPELLO Workshop sulla cassata con degustazione."
-        location: "Area Workshop", // Inferred
-        type: "Workshop"
-      },
-      {
-        time: "18:00 - 22:00", // From image: "Ore 18:00-22:00"
-        desc: "Man vs Sfincione Competition: La sfida a chi mangia lo sfincione più grande.", // From image: "MAN VS SFINCIONE COMPETITION La sfida a chi mangia lo sfincione più grande."
-        location: "Palco Competizioni", // Inferred
+        time: "19:00",
+        desc: "Sicily Young Bakery Competition - Finale. Promosso da Molini Riggi.",
+        location: "Piazza Garibaldi - Sfincione Taste",
         type: "Competizione"
+      },
+      {
+        time: "20:00",
+        desc: "Campionato Pizza dell'Identità - Semifinale. Campania vs Toscana, Sicilia vs Lazio.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Competizione"
+      },
+      {
+        time: "21:00",
+        desc: "Talk e Concerto - I Quaranta che Ballano 90.",
+        location: "Piazza Matrice",
+        type: "Spettacolo"
+      },
+    ],
+  },
+  {
+    day: "24 Novembre",
+    title: "Domenica - Eventi Finali & Premi",
+    time: "11:00 - 21:00",
+    color: "red",
+    events: [
+      {
+        time: "11:00",
+        desc: "Cooking Show con Daniele Vaccarella - Patron e pizzaiolo di 'A modo'. In collaborazione con Moretti Forni e Sagrim.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "12:00",
+        desc: "Master Class con La Farina in Evoluzione - Con Carmine Pellone, Salvo Capizzi, Carlo Conti, Antonio Minissale e Cristian Riccio.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "13:00",
+        desc: "Cooking Show con Rosalba Lo Iacono - Patron di 'Fudde in cucina'. Promosso da Sapel Legrino.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "13:00",
+        desc: "Cooking Show con Dario Genova - Patron di 'Ozio Gastronomico'.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "17:00",
+        desc: "Master Class Wine con degustazione curata da Luigi Salvo in abbinamento ai piatti dello chef Salvo Terruso. Promosso da Bonomonte Baglio e Vigne.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "18:00",
+        desc: "Cooking Show con Luciano Di Marco - Volto 9ª Masterchef e patron di 'Addakuosa'.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "19:00",
+        desc: "Cooking Show con Andy Luotto - Cuoco, attore e personaggio tv. Promosso dal Dipartimento Pesca Mediterranea della Regione Siciliana.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "20:00",
+        desc: "Cooking Show con Seby Sorbello - Chef patron del ristorante 'Sabir'. Promosso da Gruppo Arena Deco.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Workshop"
+      },
+      {
+        time: "21:00",
+        desc: "Campionato Pizza dell'Identità - Finale. Promosso da Molini Riggi.",
+        location: "Piazza Garibaldi - Sfincione Taste",
+        type: "Competizione"
+      },
+      {
+        time: "21:00",
+        desc: "Talk e Concerto con i Sugarfree.",
+        location: "Piazza Matrice",
+        type: "Spettacolo"
       },
     ],
   },
@@ -140,7 +190,7 @@ const ScheduleSection: React.FC = () => {
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full"></div>
           <p className="mt-6 text-gray-600 max-w-2xl mx-auto text-sm sm:text-base px-2">
-                          Unisciti a noi per due giorni di eccellenza culinaria, intrattenimento e celebrazione culturale. Tutti gli eventi sono programmati con cura per garantirti di non perdere nessuna delle emozioni dello Sfincione Fest.
+                          Programma dell'edizione 2024 (22-24 Novembre). Il programma dell'edizione 2025 è attualmente in fase di elaborazione. Resta aggiornato per scoprire tutte le novità della prossima edizione!
           </p>
         </MotionDiv>
 

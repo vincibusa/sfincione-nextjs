@@ -12,23 +12,23 @@ const AboutSection: React.FC = () => {
   const features = [
     {
       icon: <Users className="w-6 h-6" />,
-      title: "20+ Bakeries",
-      description: "Traditional bakeries showcasing their best Sfincione"
+      title: "130.000+ Visitatori",
+      description: "Oltre 130.000 presenze in tre giorni di festa"
     },
     {
       icon: <Calendar className="w-6 h-6" />,
-      title: "Live Events",
-      description: "Daily cooking demonstrations by master chefs"
+      title: "Show Cooking",
+      description: "Chef stellati e maestri panificatori in azione"
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Competitions",
-      description: "Annual awards and people's choice recognition"
+      title: "Competizioni",
+      description: "Sicily Young Bakery e Pizza dell'Identità"
     },
     {
       icon: <History className="w-6 h-6" />,
-      title: "Rich History",
-      description: "Celebrating centuries of Sicilian tradition"
+      title: "Tradizione",
+      description: "Sfincione bianco e rosso della tradizione siciliana"
     }
   ];
 
@@ -48,7 +48,7 @@ const AboutSection: React.FC = () => {
           >
    
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
-            COS'È LO SFINCONE FEST
+            COS'È LO SFINCIONE FEST
           </h2>
           <motion.div 
             className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full mb-8"
@@ -72,8 +72,7 @@ const AboutSection: React.FC = () => {
             >
             
             <p className="text-gray-600 leading-relaxed">
-               E' un evento unico nel suo genere che celebra lo <b>sfincione</b> come ambasciatore del territorio, forte attrattore enogastronomico e turistico
-               , la cui produzione mobilita una filiera agroalimentare variegata e sostenibile.
+               Lo Sfincione Fest è una delle <b>principali manifestazioni enogastronomiche della Sicilia</b>, giunto alla settima edizione con oltre <b>130.000 visitatori</b> a Bagheria. Un evento unico nel suo genere che celebra lo <b>sfincione</b> come ambasciatore del territorio e la "pizza dei siciliani", forte attrattore enogastronomico e turistico che mobilita una filiera agroalimentare variegata e sostenibile.
               </p>
             </motion.div>
 
@@ -83,12 +82,10 @@ const AboutSection: React.FC = () => {
               className="space-y-6"
             >
               <h3 className="text-2xl font-bold text-gray-800">
-                The <span className="text-red-600">Authentic</span> Experience
+                L'Esperienza <span className="text-red-600">Autentica</span>
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Experience the unique taste of Sfincione di Bagheria – a thick, spongy pizza topped 
-                with tomatoes, onions, anchovies, and caciocavallo cheese, all sprinkled with 
-                breadcrumbs, created through a time-honored process.
+                Tre giorni di festa nel corso Umberto I con degustazioni dello <b>sfincione bianco di Bagheria</b> e delle varianti tradizionali siciliane, cooking show con chef stellati come Tony Lo Coco, competizioni culinarie e spettacoli musicali. Un'esperienza che unisce tradizione culinaria, street food siciliano e intrattenimento di qualità.
               </p>
             </motion.div>
 
@@ -124,7 +121,7 @@ const AboutSection: React.FC = () => {
               />
               <MotionImg
                 src="https://www.allfoodsicily.it/wp-content/uploads/2021/12/sfincione-di-bagheria--1536x1024.jpeg"
-                alt="Cannoli tradizionali siciliani"
+                alt="Sfincione di Bagheria tradizionale"
                 className="w-full h-[400px] object-cover rounded-2xl"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.5 }}

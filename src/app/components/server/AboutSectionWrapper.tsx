@@ -14,21 +14,33 @@ export default function AboutSectionWrapper() {
             "mainEntity": {
               "@type": "Organization",
               "name": "Sfincione Fest",
-              "description": "Festival che celebra lo sfincione siciliano e la cultura Arbëreshë con pasticcerie artigianali, dimostrazioni culinarie e tradizioni siciliane",
+              "description": "Festival gastronomico che celebra lo sfincione siciliano, giunto alla settima edizione con oltre 130.000 visitatori a Bagheria. Tra le principali manifestazioni enogastronomiche della Sicilia, promuove la cultura gastronomica siciliana attraverso degustazioni, cooking show e competizioni culinarie",
               "image": "https://sfincionefest.it/about.JPG",
               "url": "https://sfincionefest.it/#about",
-              "foundingDate": "2023",
+              "foundingDate": "2018",
               "knowsAbout": [
-                "Pasticceria siciliana",
-                "Cultura Arbëreshë",
-                "Tradizioni culinarie siciliane", 
-                "Sfincione siciliano"
+                "Sfincione siciliano tradizionale",
+                "Sfincione bianco di Bagheria",
+                "Cultura gastronomica siciliana", 
+                "Street food siciliano",
+                "Panificazione artigianale",
+                "Competizioni culinarie"
               ],
+              "event": {
+                "@type": "FoodEvent",
+                "name": "Sfincione Fest Bagheria",
+                "description": "Manifestazione enogastronomica che celebra lo sfincione, la 'pizza dei siciliani', con degustazioni, show cooking e spettacoli musicali",
+                "eventAttendanceMode": "OfflineEventAttendanceMode",
+                "eventStatus": "EventScheduled",
+                "location": "Corso Umberto I, Bagheria",
+                "organizer": "Associazione La Piana d'Oro"
+              },
               "areaServed": {
                 "@type": "Place",
-                "name": "Sicilia",
+                "name": "Bagheria e Provincia di Palermo",
                 "address": {
                   "@type": "PostalAddress",
+                  "addressLocality": "Bagheria",
                   "addressRegion": "Sicilia",
                   "addressCountry": "Italia"
                 }
