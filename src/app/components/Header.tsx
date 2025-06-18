@@ -78,7 +78,7 @@ const Header: React.FC = () => {
         >
           <a href="/" className="block">
             <Image 
-              src="/logoSfincione.png"
+              src="/LogoSfincione.png"
               alt="Sfincione Fest Logo"
               width={120}
               height={120}
@@ -150,7 +150,7 @@ const Header: React.FC = () => {
           <div className="p-6 border-b border-gray-100">
             <div className="flex justify-between items-center">
               <Image 
-                src="/logoSfincione.png"
+                src="/LogoSfincione.png"
                 alt="Sfincione Fest Logo"
                 width={64}
                 height={64}

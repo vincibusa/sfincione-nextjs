@@ -31,6 +31,9 @@ const LocationSection: React.FC = () => {
     <section
       id="location"
       className="py-24 bg-white relative overflow-hidden"
+      itemScope
+      itemType="https://schema.org/Place"
+      aria-labelledby="location-heading"
     >
       {/* Background decorative elements */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?w=1200&q=30')] bg-cover bg-center opacity-5"></div>
@@ -43,7 +46,11 @@ const LocationSection: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="mb-16 text-center"
         >
-          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent inline-block">
+          <h2 
+            id="location-heading"
+            className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent inline-block"
+            itemProp="name"
+          >
             Dove Si Svolge
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full"></div>
@@ -76,14 +83,20 @@ const LocationSection: React.FC = () => {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div className="space-y-2">
+            <div className="space-y-2" itemScope itemType="https://schema.org/PostalAddress">
               <div className="flex items-center gap-3">
                 <MapPinIcon size={28} className="text-red-600" />
-                <h3 className="text-2xl sm:text-3xl font-bold text-gray-800">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-800" itemProp="addressLocality">
                   Bagheria
                 </h3>
               </div>
-              <p className="text-gray-600 pl-10">Corso Umberto I, Palermo, Sicilia</p>
+              <p className="text-gray-600 pl-10">
+                <span itemProp="streetAddress">Corso Umberto I</span>, 
+                <span itemProp="addressRegion"> Palermo</span>, 
+                <span itemProp="addressRegion">Sicilia</span>
+                <meta itemProp="addressCountry" content="IT" />
+                <meta itemProp="postalCode" content="90011" />
+              </p>
             </div>
 
             <div className="space-y-4">

@@ -10,7 +10,12 @@ import SponsorSectionWrapper from "./components/server/SponsorSectionWrapper";
 import HeroVideoWrapper from "./components/server/HeroVideoWrapper";
 const SfincioneFest: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white text-neutral-800">
+    <main 
+      className="min-h-screen bg-white text-neutral-800"
+      role="main"
+      itemScope
+      itemType="https://schema.org/WebPage"
+    >
       <Header />
     <HeroVideoWrapper />
       <AboutSectionWrapper />
@@ -22,7 +27,7 @@ const SfincioneFest: React.FC = () => {
       <SponsorSectionWrapper   />
   
       <Footer />
-    </div>
+    </main>
   );
 };
 

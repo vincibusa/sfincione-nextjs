@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           >
                   <a href="/" className="block">
          <img 
-                src="/logoSfincione.png" // Usa la versione scura del logo
+                src="/LogoSfincione.png" // Usa la versione scura del logo
                 alt="Sfincione Fest Logo"
                 className="h-16 w-auto mb-4"
               />
@@ -76,15 +76,7 @@ const Footer: React.FC = () => {
           >
             <h3 className="text-xl font-bold mb-6 text-gray-800">Contattaci</h3>
             <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPinIcon
-                  size={20}
-                  className="mr-3 text-red-600 mt-1 flex-shrink-0"
-                />
-                <span className="text-gray-600">
-                  Piazza Centrale, Piana degli Albanesi, Sicilia, Italia
-                </span>
-              </li>
+
               <li className="flex items-start">
                 <UserIcon
                   size={20}
@@ -128,7 +120,7 @@ const Footer: React.FC = () => {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-gray-600">info@sfincionefest.com</span>
+                <span className="text-gray-600">catanzaroepartners@gmail.com</span>
               </li>
             </ul>
           </MotionDiv>

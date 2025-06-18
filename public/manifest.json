@@ -1,0 +1,59 @@
+{
+  "name": "Sfincione Fest 2025 - Festival dello Sfincione Siciliano",
+  "short_name": "Sfincione Fest",
+  "description": "La più grande festa dello street food siciliano a Bagheria. 6-7-8-9 Novembre 2025.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "categories": ["food", "events", "entertainment", "travel"],
+  "lang": "it",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/LogoSfincione.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/LogoSfincione.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/hero1.JPG",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Homepage Sfincione Fest"
+    },
+    {
+      "src": "/about.JPG",
+      "sizes": "750x1334", 
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Festival Details"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Programma Festival",
+      "short_name": "Programma",
+      "description": "Scopri il programma completo del festival",
+      "url": "/#schedule",
+      "icons": [{ "src": "/LogoSfincione.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Come Arrivare",
+      "short_name": "Location", 
+      "description": "Informazioni su dove si svolge il festival",
+      "url": "/#location",
+      "icons": [{ "src": "/LogoSfincione.png", "sizes": "96x96" }]
+    }
+  ]
+} 

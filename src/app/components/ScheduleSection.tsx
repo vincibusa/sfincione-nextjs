@@ -171,7 +171,13 @@ const eventTypeColors = {
 
 const ScheduleSection: React.FC = () => {
   return (
-    <section id="schedule" className="py-16 sm:py-24 bg-white relative">
+    <section 
+      id="schedule" 
+      className="py-16 sm:py-24 bg-white relative"
+      itemScope
+      itemType="https://schema.org/EventSchedule"
+      aria-labelledby="schedule-heading"
+    >
       {/* Background elements - kept as in original code */}
       <div className="absolute inset-0 bg-[url('/path/to/pattern.svg')] opacity-[0.02] pointer-events-none"></div>
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-red-600/5 to-transparent"></div>
@@ -185,7 +191,11 @@ const ScheduleSection: React.FC = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="mb-12 sm:mb-16 text-center"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent inline-block">
+          <h2 
+            id="schedule-heading"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent inline-block"
+            itemProp="name"
+          >
             Programma del Festival
           </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-red-600 to-red-700 mx-auto rounded-full"></div>

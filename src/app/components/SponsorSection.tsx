@@ -518,7 +518,7 @@ const SponsorSection: React.FC = () => {
                 <h4 className="text-sm font-bold text-[#e30613] tracking-wider uppercase mb-6">
                   {category.title}
                 </h4>
-                <div className="flex flex-wrap justify-center gap-4">
+                <div className="flex  justify-center gap-4">
                   {category.sponsors.map((sponsor, sponsorIndex) => (
                     <motion.div
                       key={sponsorIndex}

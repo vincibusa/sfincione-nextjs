@@ -33,7 +33,13 @@ const AboutSection: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-white relative overflow-hidden">
+    <section 
+      id="about" 
+      className="py-24 bg-white relative overflow-hidden"
+      itemScope
+      itemType="https://schema.org/Event"
+      aria-labelledby="about-heading"
+    >
       {/* Decorative backgrounds */}
       <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-red-50/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-red-50/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -47,7 +53,11 @@ const AboutSection: React.FC = () => {
           className="text-center max-w-3xl mx-auto mb-16"
           >
    
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
+          <h2 
+            id="about-heading"
+            className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent"
+            itemProp="name"
+          >
             COS'È LO SFINCIONE FEST
           </h2>
           <motion.div 

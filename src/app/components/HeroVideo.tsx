@@ -8,7 +8,12 @@ const MotionDiv = motion.div;
 
 const HeroVideo: React.FC = () => {
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-white">
+    <section 
+      className="relative w-full h-screen overflow-hidden bg-white"
+      itemScope
+      itemType="https://schema.org/VideoObject"
+      aria-label="Sfincione Fest 2025 - Video principale"
+    >
       {/* Video di sfondo */}
       <div className="absolute inset-0">
         <video
@@ -18,11 +23,13 @@ const HeroVideo: React.FC = () => {
           loop
           playsInline
           className="w-full h-full object-cover"
+          aria-label="Video promozionale Sfincione Fest 2025"
+          itemProp="contentUrl"
         />
         
         {/* Overlay gradiente */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
-          <div className="absolute inset-0 flex items-center justify-center p-4">
+          <header className="absolute inset-0 flex items-center justify-center p-4">
             <MotionDiv
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -43,12 +50,13 @@ const HeroVideo: React.FC = () => {
               {/* Logo e sottotitolo */}
               <div className="flex justify-center mb-4">
                 <Image 
-                  src="/logoSfincione.png" 
-                  alt="Sfincione Fest" 
+                  src="/LogoSfincione.png" 
+                  alt="Sfincione Fest 2025 - Festival dello Sfincione Siciliano a Bagheria" 
                   width={320}
                   height={320}
                   className="h-32 md:h-40 object-contain"
                   priority
+                  itemProp="logo"
                 />
               </div>
               <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
@@ -56,10 +64,10 @@ const HeroVideo: React.FC = () => {
               </p>
               
             </MotionDiv>
-          </div>
+          </header>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
